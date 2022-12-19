@@ -18,3 +18,13 @@ app.use(taskRouter);
 app.listen(PORT, () => {
   console.log(`Server is listening on PORT: ${PORT}`);
 });
+
+// const Task = require("./models/task");
+
+// const main = async () => {
+//   const task = await Task.findById("639ad1dd6df7f56512d1edb0");
+//   await task.populate("author");
+//   console.log(task.author);
+// };
+
+// main();
